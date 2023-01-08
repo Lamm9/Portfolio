@@ -71,7 +71,7 @@ p {
 
 .card {
     padding: 50px;
-    margin: 40px 90px 40px 90px;
+    margin: 40px 100px 40px 100px;
     background-color: white;
     display: inline-flex;
     flex-wrap: wrap;
@@ -85,6 +85,14 @@ p {
     background-color: var(--green);
     padding: 3px;
     border-radius: 5px;
+    position: relative;
+    left:-20px;
+}
+
+#Cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 16%;
 }
 
 #Bio {
@@ -93,8 +101,9 @@ p {
 }
 
 #Projects {
-    margin-top: 60px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #StudyGuide {
@@ -102,20 +111,22 @@ p {
 }
 
 #First {
-    padding: 50px;
-    margin: auto;
+    width: 60%;     
+}
+
+#First a {
     display: flex;
-    width: 100vh;
-    border-radius: 5px;
-    position: relative;
+    align-items: center;
     justify-content: center;
 }
 
 #FP {
-    position: absolute;
+    position: relative;
     background-color: var(--green);
+    left: 5px;
+    bottom: 100px;
+    width: 30%;
     border-radius: 5px;
-    padding:2px;
 }
 
 #Contact {
@@ -148,6 +159,10 @@ a img:hover {
 }
 
 @media screen and (max-width:1180px) {
+    body {
+        flex-direction: row;
+    }
+
     header {
         justify-content: center;
     }
@@ -161,12 +176,19 @@ a img:hover {
     }
 
     #StudyGuide {
-        width: 80%;
+        width: 100vh;
         height: auto;
     }
 
     #FP {
-    
+        font-size: 1.2rem;
+        display: inline;
+        left:0px;
+        bottom:30px;
+    }
+
+    #Cards {
+        margin:0;
     }
     
 }
