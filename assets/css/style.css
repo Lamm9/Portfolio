@@ -95,6 +95,14 @@ p {
     margin-left: 16%;
 }
 
+#Me {
+    width: 20%;
+    border-radius: 50%;
+    position: relative;
+    left: 40%;
+    margin-top: 40px;
+}
+
 #Bio {
     text-align: center;
     margin-top: 60px;
