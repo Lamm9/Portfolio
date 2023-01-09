@@ -163,7 +163,15 @@ a img:hover {
 
 @media screen and (max-width:1690px) {
     body {
-        flex-direction: column;
+        flex-direction: row;
+    }
+
+    #Cards {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
     }
 
 
@@ -196,10 +204,6 @@ a img:hover {
         display: inline;
         left:0px;
         bottom:30px;
-    }
-
-    #Cards {
-        margin:0;
     }
 
     #Me {
