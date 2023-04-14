@@ -150,6 +150,15 @@ p {
     border-radius: 5px;
 }
 
+#bootleg {
+    padding: 50px;
+    margin: 40px 100px 40px 100px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 450px;
+    border-radius: 5px;
+}
+
 #qv-title {
     text-align: left;
     font-size: 1.3rem;
@@ -159,7 +168,21 @@ p {
     position: absolute;
 }
 
+#bt-title {
+    text-align: left;
+    font-size: 1.3rem;
+    background-color: var(--green);
+    padding: 3px;
+    border-radius: 5px;
+    position: absolute;
+}
+
 #quizverse-link {
+    width:450px;
+    height:auto;
+}
+
+#bt-link {
     width:450px;
     height:auto;
 }
