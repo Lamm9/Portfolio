@@ -158,10 +158,6 @@ h4 a:hover {
     color: white;
 }
 
-a img:hover {
-    
-}
-
 @media screen and (max-width:1690px) {
     body {
         flex-direction: row;
